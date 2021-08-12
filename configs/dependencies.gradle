@@ -12,6 +12,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_ktx_version"
     implementation "androidx.activity:activity-compose:$activity_compose_version"
 
+    // Jetpack Compose Navigation
+    // See https://developer.android.com/jetpack/compose/navigation
+    implementation "androidx.navigation:navigation-compose:$android_navigation_compose"
+
     // Kotlin
     // @See https://developer.android.com/kotlin/ktx
     implementation "androidx.core:core-ktx:$ktx_version"
@@ -25,6 +29,9 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+
+    // Timber
+    implementation "com.jakewharton.timber:timber:$timber_version"
 
     /*
      * TEST DEPENDENCIES
