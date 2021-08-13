@@ -15,4 +15,6 @@ ext {
     okhttp_version = '4.9.0'
     android_navigation_compose = '2.4.0-alpha06'
     timber_version = '5.0.0'
+    hilt_navigation_compose = '1.0.0-alpha03'
+    coroutines_version = '1.5.1'
 }

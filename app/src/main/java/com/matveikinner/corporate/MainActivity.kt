@@ -11,6 +11,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navigation
 import com.matveikinner.corporate.presentation.login.LoginScreen
 import com.matveikinner.corporate.ui.theme.CorporateTheme
 import dagger.hilt.android.AndroidEntryPoint
